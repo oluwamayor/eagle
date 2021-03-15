@@ -48,7 +48,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
     <label for="exampleFormControlTextarea1">First Name</label>
-<input type="email" class="form-control form-custom"  size="30" name="fname">
+<input type="text" class="form-control form-custom"  size="30" name="fname">
 
 </div>
 </div>

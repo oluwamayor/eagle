@@ -207,7 +207,7 @@ Are you worried about your eyes?
 <p>
 Our team of dedicated eye health professionals are here to serve you. We combine extensive knowledge in the field of optometry with a passion for helping people solve their vision problems..
 </p>
-<a href="#" class="btn btn-primary">Book An Appointment</a>
+<a href="appointment" class="btn btn-primary">Book An Appointment</a>
 
 </div>
 
@@ -250,7 +250,7 @@ Your Eye Says It All
     At Eaglevision, We are committed to helping you feel and see your best. With our modern technology,
     you don't have to worry or stress about those eye pains any more.
 </p>
-<a href="#" class="btn btn-primary">Book An Appointment</a>
+<a href="appointment" class="btn btn-primary">Book An Appointment</a>
 
 </div>
 
@@ -294,7 +294,7 @@ We Maintain Our Image
 
 
 </p>
-<a href="#" class="btn btn-primary">Book An Appointment</a>
+<a href="appointment" class="btn btn-primary">Book An Appointment</a>
 
 </div>
 
@@ -578,7 +578,7 @@ Why Choose Us ?<br/>
 <hr>
 <div class="row">
 <div class="col-md-12">
-<a href="#" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
+<a href="appointment" class="btn btn-dark" tabindex="0">MAKE APPOINTMENT</a>
 </div>
 </div>
 </div>
