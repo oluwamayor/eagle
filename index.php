@@ -24,7 +24,7 @@
 <link rel="icon" href="images/favicon.png" type="image/png" sizes="60X60">
 <title>Eaglevision Eye Care Center</title> 
 </head>
-<body>
+<body ng-app="myApp">
 <style>
     .bx{
         width: 210px;
@@ -90,7 +90,7 @@
 <div class="col-md-12">
 
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="index.html"><img src="images/log2.png" alt="#" /></a>
+<a class="navbar-brand" href="index"><img src="images/log2.png" alt="#" /></a>
 <button class="navbar-toggler nav-custome1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
                                         navigation">
 <span class="navbar-toggler-icon"></span>
@@ -98,18 +98,18 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav ml-auto">
 <li class="nav-item">
-<a class="nav-link" href="index.html" role="button" aria-haspopup="true" aria-expanded="false"> Home  </a>
+<a class="nav-link" href="index" role="button" aria-haspopup="true" aria-expanded="false"> Home  </a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href=""  role="button" aria-haspopup="true" aria-expanded="false"> About  </a>
+    <a class="nav-link" href="about"  role="button" aria-haspopup="true" aria-expanded="false"> About  </a>
     </li>
 
     <li class="nav-item">
-        <a class="nav-link" href="#"  role="button" aria-haspopup="true" aria-expanded="false"> Services  </a>
+        <a class="nav-link" href="services"  role="button" aria-haspopup="true" aria-expanded="false"> Services  </a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Contact  </a>
+            <a class="nav-link" href="contact" role="button" aria-haspopup="true" aria-expanded="false"> Contact  </a>
             </li> 
 
             <li class="nav-item">
@@ -900,120 +900,6 @@ Your eye is the fastest muscle in your body.<br> Hence, the phrase: “In the bl
 </div>
 </section>
 
-
-<footer>
-<div class="container container-custom">
-<div class="row">
-<div class="col-sm-12 col-md-12 col-lg-4">
-<div class="foot-contact-block">
-<img src="images/log.png" class="img-fluid" alt="#" style="border-radius: 15px;" />
-<p>
-    Eaglevision Eye Care Centre is made up of a team of eye care providers dedicated to the provision of Professional Eye Care Services to the public at an affordable rate.
-</p>
-<a href="tel:+2349090055448" style="text-decoration: none;">
-<h4><i class="fas fa-phone"></i>+234 9090 055 448</h4>
-</a>
-<a href="tel:+2348118878849" style="text-decoration: none;">
-    <h4><i class="fas fa-phone"></i>+234 8118 878 849</h4>
-    </a>
-<a href="mailto:info@eaglevisionltd.com" style="text-decoration: none;">
-<h4><i class="far fa-envelope"></i><span>info@eaglevisionltd.com</span></h4>
-</a>
-</div>
-</div>
-<div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
-<div class="foot-link-box">
-<h4>Quick Links</h4>
-<ul>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>About Us</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Our Services</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Contact Us</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Faq</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-sm-6 col-md-4 col-lg-2">
-<div class="foot-link-box">
-<h4>Our Services</h4>
-<ul>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Cataract Screening</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Glaucoma Screening</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Lens Services</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Eye Checkup</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Optical Services</a>
-</li>
-<li>
-<a href="#"><i class="fas fa-angle-double-right"></i>Retina Services</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="col-md-4 col-lg-2 offset-lg-1">
-<div class="foot-link-box footlink-box_btn">
-<a href="#" class="btn btn-outline-success">Find a Doctor</a>
-<a href="#" class="btn btn-outline-success">Career</a>
-<a href="#" class="btn btn-outline-success">Newsletter</a>
-<ul>
-<li>
-<a href="https://web.facebook.com/eaglevisionng"><i class="fab fa-facebook-f"></i></a>
-</li>
-<li>
-<a href="https://twitter.com/eaglevision_ng"><i class="fab fa-twitter"></i></a>
-</li>
-<li>
-<a href="https://www.instagram.com/eaglevisionng/"><i class="fab fa-instagram"></i></a>
-</li>
-<li>
-
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<div class="copyright">
-<p>© Eaglevision Eye Care Center 2021 All rights Reserved. Developed by <a href="https://cogniko.com" target="_blank" style="color: #B5B5B6;">Cogniko</a></p>
-<a href="#" id="scroll"><i class="fas fa-angle-double-up"></i></a>
-</div>
-</div>
-</div>
-</div>
-</footer>
-
-
-
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/slick.min.js"></script>
-
-<script src="js/jquery.magnific-popup.min.js"></script>
-
-<script src="js/script.js"></script>
-</body>
-</html>
+<?php
+include("logic/footer.php");
+?>
