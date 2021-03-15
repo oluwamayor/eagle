@@ -49,6 +49,20 @@
 		  	
 		}
       
+        if ($isValid && (strlen($phone) < 11) || (strlen($phone) > 11 )) {
+            $isValid = false;
+            echo "
+            <script type=\"text/javascript\">
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'Phone number can't be less or greater than 11 characters'
+              
+            })
+            </script>
+        ";
+            
+      }
 
         
 
@@ -61,7 +75,13 @@
 			$stmt->bind_param("sssssss",$fname,$lname,$phone,$email,$a_time,$a_date,$msg);
 			$stmt->execute();
 			$stmt->close();
-
+            ini_set("SMTP", "smtpout.secureserver.net");//confirm smtp
+            $to = "$email";
+            $subject = "Eaglevision Eye Care Center Appointment";
+            $message = "Congratulations,$fname. Your appointment has been set for $a_date at $a_time";
+            $from = "djangodave62@gmail.com";
+            $headers = "From: $from";
+            mail($to,$subject,$message,$headers);
             echo "
             <script type=\"text/javascript\">
             Swal.fire({

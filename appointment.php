@@ -1,11 +1,11 @@
 <?php
-include("logic/connect.php");
+// include("logic/connect.php");
 ?>
 <?php
-include("logic/header.php");
+ include("logic/header.php");
 ?>
 <?php
-include("logic/book.php");
+// include("logic/book.php");
 ?>
 
 <section class="space sub-header">
@@ -64,7 +64,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
     <label for="exampleFormControlTextarea1">Phone Number</label>
-<input type="number" class="form-control form-custom" name="phone" >
+<input type="number" class="form-control form-custom" name="phone" minlength="11" maxlength="11">
 
 </div>
 </div>
@@ -123,6 +123,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <p>We are the best at what we do</p>
 </div>
 </div>
+
 <div class="whychoose-wrap">
 <img src="images/icon2.png" alt="#">
 <div class="whychoose-text_block">
@@ -137,13 +138,16 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <p>Our services are growing and expanding in Nigeria</p>
 </div>
 </div>
+
 <div class="whychoose-wrap">
 <img src="images/icon4.png" alt="#">
 <div class="whychoose-text_block">
-<h4>Care,Respect and Diligence</h4>
-<p>If there are key things we stand for, it is Care, Respect and Diligence</p>
+<h4>Care, Respect, Deligence </h4>
+<p>What we stand for  is Care, Respect and Diligence</p>
 </div>
 </div>
+
+
 </div>
 </div>
 </div>
