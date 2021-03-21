@@ -77,9 +77,26 @@
 			$stmt->close();
             ini_set("SMTP", "smtpout.secureserver.net");//confirm smtp
             $to = "$email";
-            $subject = "Eaglevision Eye Care Center Appointment";
-            $message = "Congratulations,$fname. Your appointment has been set for $a_date at $a_time";
-            $from = "djangodave62@gmail.com";
+            $subject = "Your Appointment at Eaglevision Eye Care Centre is Confirmed";
+            $message = "Dear $fname, <br>
+            We are looking forward to welcoming you to Eaglevision Eye Care Centre on:
+            $a_date at $a_time.<br>
+
+            You’ve booked an appointment with Dr Karen A. for an Eye Treatment.<br>
+
+If, for any reason, you can’t make the appointment, please let us know as soon as possible either by giving us a call on +234 9090 055 448 or mail us at info@eaglevisionltd.com.<br>
+
+
+            Kind Regards,
+            Eaglevision Eye Care Centre Team.
+            info@eaglevisionltd.com,
+            +234 9090 055 448
+            "
+            
+            
+            
+            ;
+            $from = "no=reply@eaglevisionltd.com";
             $headers = "From: $from";
             mail($to,$subject,$message,$headers);
             echo "
