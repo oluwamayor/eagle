@@ -1,23 +1,24 @@
-<?php 
-	$error_message = "";$success_message = "";
+<?php
+	$msg = "";
+	use PHPMailer\PHPMailer\PHPMailer;
 
-	// Register user
-	if(isset($_POST['btnsignup'])){
-		$fname = $mysqli -> real_escape_string($_POST['fname']);
-		$lname = $mysqli -> real_escape_string($_POST['lname']);
-		$phone = $mysqli -> real_escape_string($_POST['phone']);
-        $email = $mysqli -> real_escape_string($_POST['email']);
-		$a_time= $mysqli -> real_escape_string($_POST['a_time']);
-        $a_date= $mysqli -> real_escape_string($_POST['a_date']);
-		$msg =   $mysqli -> real_escape_string($_POST['msg']);
-		
-		
-		
+	if (isset($_POST['submit'])) {
+		$con = new mysqli("localhost","eaglhwox_user",";e3k..6-#63_","eaglhwox_datas");
 
+		$fname = $con -> real_escape_string($_POST['fname']);
+		$lname = $con -> real_escape_string($_POST['lname']);
+		$phone = $con -> real_escape_string($_POST['phone']);
+        $email = $con -> real_escape_string($_POST['email']);
+		$a_time= $con -> real_escape_string($_POST['a_time']);
+        $a_date= $con -> real_escape_string($_POST['a_date']);
+		$msg =   $con -> real_escape_string($_POST['msg']);
+
+	
 		$isValid = true;
 
 		// Check fields are empty or not
-		if($fname == '' || $lname == '' || $phone == ''   || $email == '' || $a_time == '' || $a_date == '' || $msg == '' ){
+		if($fname == '' || $lname == '' || $phone == ''   || $email == '' || $a_time == '' || $a_date == '' || $msg == '' )
+		{
 			$isValid = false;
             echo "
             <script type=\"text/javascript\">
@@ -30,11 +31,8 @@
             </script>
         ";
 		}
-
-	
-
-		// Check if Email-ID is valid or not
-		if ($isValid && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+		
+			if ($isValid && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
 		  	$isValid = false;
               echo "
               <script type=\"text/javascript\">
@@ -49,57 +47,41 @@
 		  	
 		}
       
-        if ($isValid && (strlen($phone) < 11) || (strlen($phone) > 11 )) {
-            $isValid = false;
-            echo "
-            <script type=\"text/javascript\">
-            Swal.fire({
-              icon: 'error',
-              title: 'Oops...',
-              text: 'Phone number can't be less or greater than 11 characters'
-              
-            })
-            </script>
-        ";
-            
-      }
-
-        
-
+		if($isValid) {
+			
+		
 	
+				$con->query("INSERT INTO appointment (fname,lname,phone,email,a_time,a_date,msg )
+					VALUES ('$fname','$lname','$phone','$email','$a_time','$a_date','$msg' );
+				");
 
-		// Insert records
-		if($isValid){
-			$insertSQL = "INSERT INTO appointment(fname,lname,phone,email,a_time,a_date,msg ) values(?,?,?,?,?,?,?)";
-			$stmt = $mysqli->prepare($insertSQL);
-			$stmt->bind_param("sssssss",$fname,$lname,$phone,$email,$a_time,$a_date,$msg);
-			$stmt->execute();
-			$stmt->close();
-            ini_set("SMTP", "smtpout.secureserver.net");//confirm smtp
-            $to = "$email";
-            $subject = "Your Appointment at Eaglevision Eye Care Centre is Confirmed";
-            $message = "Dear $fname, <br>
-            We are looking forward to welcoming you to Eaglevision Eye Care Centre on:
-            $a_date at $a_time.<br>
+               	   include_once "PHPMailer/PHPMailer.php";
 
-            You’ve booked an appointment with Dr Karen A. for an Eye Treatment.<br>
+                $mail = new PHPMailer();
+                $mail->setFrom('no-reply@eaglevisionltd.com');
+                $mail->addAddress($email, $fname);
+                $mail->Subject = "Your Appointment at Eaglevision Eye Care Centre is Confirmed";
+                $mail->isHTML(true);
+                $mail->Body = "
+                    Dear $fname,<br>
+                    We look forward to welcoming you to Eaglevision 
+                    Eye Care Centre on:  <strong>$a_date at $a_time.</strong><br>
+                   
+                    You’ve booked an Appointment with Dr Karen A.<br>
+                    <p>
+                    If, for any reason, you can’t make the appointment, please let us know as soon as possible either by giving us a call on +234 9090 055 448 or sending us a mail to info@eaglevisionltd.com
+                    </p>
+                   
+                    
+                    <p>
+                    Kind Regards,<br>
+                    Eaglevision Eye Care Centre Team.
 
-If, for any reason, you can’t make the appointment, please let us know as soon as possible either by giving us a call on +234 9090 055 448 or mail us at info@eaglevisionltd.com.<br>
+                    </p>
+                ";
 
-
-            Kind Regards,
-            Eaglevision Eye Care Centre Team.
-            info@eaglevisionltd.com,
-            +234 9090 055 448
-            "
-            
-            
-            
-            ;
-            $from = "no=reply@eaglevisionltd.com";
-            $headers = "From: $from";
-            mail($to,$subject,$message,$headers);
-            echo "
+                if ($mail->send())
+                          echo "
             <script type=\"text/javascript\">
             Swal.fire({
   position: 'top-end',
@@ -110,6 +92,23 @@ If, for any reason, you can’t make the appointment, please let us know as soon
 })
             </script>
         ";
+                else
+                           echo "
+              <script type=\"text/javascript\">
+              Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something Happened. Try again!!'
+                
+              })
+              </script>
+          ";
+			
 		}
 	}
-	?>
+?>
+
+
+
+
+

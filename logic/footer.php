@@ -1,8 +1,8 @@
 <footer>
     <div class="container container-custom">
     <div class="row">
-    <div class="col-sm-12 col-md-12 col-lg-4">
-    <div class="foot-contact-block">
+         <div class="col-sm-12 col-md-12 col-lg-4">
+         <div class="foot-contact-block">
         <img src="images/log.png" class="img-fluid" alt="#" style="border-radius: 15px;" />
     <p>
         Eaglevision Eye Care Centre is made up of a team of eye care providers dedicated to the provision of Professional Eye Care Services to the public at an affordable rate.
@@ -16,30 +16,26 @@
     <a href="mailto:info@eaglevisionltd.com" style="text-decoration: none;">
     <h4><i class="far fa-envelope"></i><span>info@eaglevisionltd.com</span></h4>
     </a>
-    </div>
+          </div>
     </div>
     <div class="col-sm-6 col-md-4 col-lg-2 offset-lg-1">
     <div class="foot-link-box">
     <h4>Quick Links</h4>
     <ul>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>About Us</a>
+    <a href="about"><i class="fas fa-angle-double-right"></i>About Us</a>
+    </li>
+  
+    <li>
+    <a href="services"><i class="fas fa-angle-double-right"></i>Our Services</a>
     </li>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Our Mission</a>
+    <a href="#"><i class="fas fa-angle-double-right"></i>Gallery</a>
     </li>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Our Services</a>
+    <a href="contact"><i class="fas fa-angle-double-right"></i>Contact Us</a>
     </li>
-    <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Blogs & News</a>
-    </li>
-    <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Contact Us</a>
-    </li>
-    <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Faq</a>
-    </li>
+   
     </ul>
     </div>
     </div>

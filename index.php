@@ -107,6 +107,11 @@
     <li class="nav-item">
         <a class="nav-link" href="services"  role="button" aria-haspopup="true" aria-expanded="false"> Services  </a>
         </li>
+     
+        <li class="nav-item">
+        <a class="nav-link" href="gallery"  role="button" aria-haspopup="true" aria-expanded="false"> Gallery  </a>
+        </li>
+           
 
         <li class="nav-item">
             <a class="nav-link" href="contact" role="button" aria-haspopup="true" aria-expanded="false"> Contact  </a>

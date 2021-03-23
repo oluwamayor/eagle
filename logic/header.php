@@ -20,6 +20,7 @@
 <link rel="stylesheet" href="css/style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 <title>Eaglevision</title>
@@ -91,6 +92,11 @@ Home
         Services
         </a>
         </li>
+        <li class="nav-item ">
+            <a class="nav-link " href="gallery" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Gallery
+            </a>
+            </li>
 
         <li class="nav-item ">
             <a class="nav-link " href="contact" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">

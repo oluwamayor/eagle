@@ -33,74 +33,109 @@ include("logic/header.php");
 </div>
 </div>
 <div class="row">
-<div class="col-md-4">
-<div class="service-block yellow">
-<img src="images/service-icon1.png" alt="#">
-<h3>Dental Care</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-<a href="#" class="btn btn-dark">READ MORE</a>
-<div class="service-bg-icon">
-<img src="images/services-bg1.png" class="img-fluid" alt="#">
-</div>
-</div>
-</div>
-<div class="col-md-4">
+<div class="col-md-12">
+<div class="service-slider">
 <div class="service-block green">
 <img src="images/service-icon2.png" alt="#">
-<h3>Eye Care</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-<a href="#" class="btn btn-dark">READ MORE</a>
+<h3>Eye Checkup</h3>
+<p>We use advanced technologies in detection and proactive treatment of vision problems that can make a critical difference in the outcome of your overall eye health.</p>
+
 <div class="service-bg-icon">
 <img src="images/services-bg2.png" class="img-fluid" alt="#">
 </div>
 </div>
+
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Glaucoma and Cataract Screening</h3>
+<p>Our routine eye care examinations can detect cataract, glaucoma and other vision threatening diseases and also proffer the best treatment available.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
 </div>
-<div class="col-md-4">
+</div>
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Glaucoma and Cataract Screening</h3>
+<p>Our routine eye care examinations can detect cataract, glaucoma and other vision threatening diseases and also proffer the best treatment available.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Back to school Eye check-up</h3>
+<p>We offer a free annual back to school comprehensive eye examination for all children</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Management of Eye Diseases</h3>
+<p>From annual check-ups and health examinations to glaucoma screenings and treatment you can schedule an appointment with us today.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
+
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Occupational/Sports Eye care services</h3>
+<p>If you are an athlete and you need occupational glasses or more durable sports glasses, you can personalize your order with us- including ultra-thin lenses.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
+
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Optical Services</h3>
+<p>We offer complimentary cleaning and adjustment services to all our patients and customers.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
+
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Select Spectacle prescriptions ready in 24 hours</h3>
+<p>Eaglevision eye care center in partnership with reputable international lens manufacturing companies  ensure that you can get very high quality select lens prescriptions ready in 24 hours.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
+
+<div class="service-block green">
+<img src="images/service-icon2.png" alt="#" />
+<h3>Premium Lenses</h3>
+<p>Whether you need prescription sunglasses for driving or you’re an athlete in search of more durable sports glasses you can personalize your order with us- including ultra-thin lenses.</p>
+
+<div class="service-bg-icon">
+<img src="images/services-bg2.png" class="img-fluid" alt="#">
+</div>
+</div>
 <div class="service-block blue">
-<img src="images/service-icon3.png" alt="#">
-<h3>Allergic Issue</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-<a href="#" class="btn btn-dark">READ MORE</a>
+<img src="images/service-icon3.png" alt="#" />
+<h3>Designer Sunglasses & Optical Frames</h3>
+ <p>
+ Finding the perfect pair of sunglasses and optical frames can be difficult, since factors such as face shape, durability, size and colour can dictate which works for you. For your convenience Eaglevision eye center offers  several brands with complementary style consultation
+</p>
+
 <div class="service-bg-icon">
 <img src="images/services-bg3.png" class="img-fluid" alt="#">
 </div>
 </div>
+<!-- new set -->
+
 </div>
-</div>
-<div class="row">
-<div class="col-md-4">
-<div class="service-block blue">
-<img src="images/service-icon4.png" alt="#">
-<h3>Cardiology</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-<a href="#" class="btn btn-dark">READ MORE</a>
-<div class="service-bg-icon">
-<img src="images/services-bg4.png" class="img-fluid" alt="#">
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="service-block yellow">
-<img src="images/service-icon5.png" alt="#">
-<h3>Neurology Sargery</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-<a href="#" class="btn btn-dark">READ MORE</a>
-<div class="service-bg-icon">
-<img src="images/services-bg5.png" class="img-fluid" alt="#">
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="service-block green">
-<img src="images/service-icon6.png" alt="#">
-<h3>Allergic Issue</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore </p>
-<a href="#" class="btn btn-dark">READ MORE</a>
-<div class="service-bg-icon">
-<img src="images/services-bg6.png" class="img-fluid" alt="#">
-</div>
-</div>
-</div>
+<!-- end of new set -->
 </div>
 </div>
 </section>
@@ -109,7 +144,10 @@ include("logic/header.php");
 
 
 
-<section class="space">
+
+
+
+<!-- <section class="space">
 <div class="container container-custom">
 <div class="row">
 <div class="col-md-6">
@@ -138,10 +176,8 @@ include("logic/header.php");
 <ul class="pricing">
 <li>
 <img src="images/pricing-icon1.png" class="img-fluid" alt="#">
-<h2><span>$</span>22</h2>
-<h3>Single Package</h3>
-<p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius mod tempor incididunt ut</p>
-<a href="#" class="btn btn-primary">Select Plan</a>
+<h2><span>₦</span>5000</h2>
+<h3>Contact Lens Service</h3>
 </li>
 <li class="pricing-middle">
 <img src="images/pricing-icon2.png" class="img-fluid" alt="#">
@@ -151,7 +187,7 @@ include("logic/header.php");
 <a href="#" class="btn btn-success">Select Plan</a>
 <div class="pricing-badge">
 <img src="images/pricing-badge.png" alt="#">
-</div>
+   </div>
 </li>
 <li>
 <img src="images/pricing-icon3.png" class="img-fluid" alt="#">
@@ -194,7 +230,7 @@ include("logic/header.php");
 </div>
 </div>
 </div>
-</section>
+</section> -->
 
 
 <div class="light">
