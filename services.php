@@ -239,7 +239,7 @@ include("logic/header.php");
 <div class="col-md-12">
 <div class="testi-slider-style2">
 <div class="testimonial-style2">
-<img src="images/doctors-img1.jpg" alt="#">
+<img src="images/tes7.jpg" alt="#">
 <ul>
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
@@ -247,12 +247,18 @@ include("logic/header.php");
  <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
 </ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationLorem ipsum dolor sit amet, consectetur adipisicing
-elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</p>
-<span>Mary Jane (ceo)</span>
+<p>Eaglevision Eye Care Center team members are welcoming, reassuring, extremely friendly, highly professional, 
+compassionate and very enthusiastic about their jobs. My constant headache prior to my visit is now a 
+thing of the past. My entire nuclear family patronise Eaglevision Eye Care Center; the experience has been unique 
+and worthwhile for everyone. At Eaglevision Eye Care Center, every customer is important. The staff are efficient
+ and always surpass expectations in the quality of their offerings and delivery. They go above and beyond to 
+creat a great customer experience and excellent service. Even during COVID-19 era of hesitating to go into any office, 
+my visit to the place was a pleasant one. 
+All necessary protocols were duly observed. The general hygiene of the office space is top-notch. </p>
+<span>Adesola Aritibi</span>
 </div>
 <div class="testimonial-style2">
-<img src="images/doctors-img1.jpg" alt="#">
+<img src="images/tes8.jpg" alt="#">
 <ul>
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
@@ -260,12 +266,24 @@ elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut eni
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
 </ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationLorem ipsum dolor sit amet, consectetur adipisicing
-elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</p>
-<span>Mary Jane (ceo)</span>
+<p>
+Eaglevision Eye Care Center is the best place to get your eyes checked and accessories gotten.
+
+My name is Asari Anam and I am based in Calabar.
+
+My ability to ensure that I maintain my patronage is anchored on the amazing services rendered at Eaglevision Eye Care Center .
+
+They have  sound and intelligent optometrists , good  services and interpersonal relationship skills. These criterias have kept me with Eaglevision Eye Care Center 
+for 8yrs now and going. 
+
+I have also ensured that my Family member inclusive of my children go for thier eye check up with Eaglevision Eye Care Center as required.
+
+I deeply appreciate the team at Eaglevision Eye Care Center 
+</p>
+<span>Asari Anam</span>
 </div>
 <div class="testimonial-style2">
-<img src="images/doctors-img1.jpg" alt="#">
+<img src="images/tes3.jpg" alt="#">
 <ul>
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
@@ -273,12 +291,11 @@ elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut eni
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
 </ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationLorem ipsum dolor sit amet, consectetur adipisicing
-elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</p>
-<span>Mary Jane (ceo)</span>
+<p> I recently went to Eaglevision Eye Care Center for my annual eye exam. I explained that I hadn’t really been able to wear my contacts because my eyes were bothering me. During the exam, I was walked through exactly what processes where going on and what the examiner was looking for. After the eye examinations, I was told that I have dry eyes, which is why my contacts were bothering me. Got the best service and I'm looking better with good vision.</p>
+<span>NIKIRU AJAH</span>
 </div>
 <div class="testimonial-style2">
-<img src="images/doctors-img1.jpg" alt="#">
+<img src="images/tes6.jpg" alt="#">
 <ul>
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
@@ -286,12 +303,11 @@ elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut eni
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
 </ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationLorem ipsum dolor sit amet, consectetur adipisicing
-elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</p>
-<span>Mary Jane (ceo)</span>
+<p> Eaglevision Eye Care Center is focused on personal care, and making patients at ease from the very onset.They have a very nice ambiance and courteous staff . Their use of technology to help correct some issues i had with my eye due to long screen time was amazing. In less than 2 weeks, I had gotten an amzing UV glasses prescribed and procured for me by Eaglevision Eye Care Center. They have amazing services and are worth recommeding.</p>
+<span>Captain Yemi</span>
 </div>
 <div class="testimonial-style2">
-<img src="images/doctors-img1.jpg" alt="#">
+<img src="images/tes5.jpg" alt="#">
 <ul>
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
@@ -299,9 +315,8 @@ elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut eni
 <li><i class="fas fa-star"></i></li>
 <li><i class="fas fa-star"></i></li>
 </ul>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitationLorem ipsum dolor sit amet, consectetur adipisicing
-elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</p>
-<span>Mary Jane (ceo)</span>
+<p>  Eaglevision Eye Care Center possess knowledgeable staff that carefully explain in detail, every information their patients need to know. They made sure I was happy with my lenses when I had to go from gas permeable to soft lenses. They are very thorough and make sure all patients are happy with their prescriptions. I have been going to Eaglevision Eye Care Center for about four years, and I must add, I have been very happy.</p>
+<span>Oghenerhoro Oghuvbu</span>
 </div>
 </div>
 <hr>
