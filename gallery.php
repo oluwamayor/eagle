@@ -30,5 +30,5 @@ include("logic/gheader.php");
   </div>
 
 <?php
-include("logic/footer.php");
+include("logic/gfooter.php");
 ?>
