@@ -1,11 +1,11 @@
 <?php
-// include("logic/connect.php");
+ //include("logic/connect.php");
 ?>
 <?php
  include("logic/header.php");
 ?>
 <?php
-// include("logic/book.php");
+//include("logic/book.php");
 ?>
 
 <section class="space sub-header">
@@ -48,14 +48,14 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
     <label for="exampleFormControlTextarea1">First Name</label>
-<input type="text" class="form-control form-custom"  size="30" name="fname">
+<input style="font-size:1rem" type="text" class="form-control form-custom" name="fname">
 
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
     <label for="exampleFormControlTextarea1">Last Name</label>
-<input type="text" class="form-control form-custom" name="lname">
+<input type="text" style="font-size:1rem" class="form-control form-custom" name="lname">
 
 </div>
 </div>
@@ -64,14 +64,14 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
     <label for="exampleFormControlTextarea1">Phone Number</label>
-<input type="number" class="form-control form-custom" name="phone" minlength="11" maxlength="11">
+<input type="number" style="font-size:1rem" class="form-control form-custom" name="phone" pattern="[0-9]*" inputmode="numeric">
 
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
     <label for="exampleFormControlTextarea1">Email Address</label>
-<input type="email" class="form-control form-custom" name="email">
+<input type="email" style="font-size:1rem" class="form-control form-custom" name="email">
 
 </div>
 </div>
@@ -80,14 +80,14 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
 <label for="exampleFormControlTextarea1">Appointment Time</label>
-<input type="time" class="form-control form-custom" name="a_time">
+<input type="time" style="font-size:1rem" class="form-control form-custom" name="a_time">
 
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group form-group-cutom">
 <label for="exampleFormControlTextarea1">Appointment Date</label>
-<input type="date" class="form-control form-custom" name="a_date">
+<input type="date" style="font-size:1rem" class="form-control form-custom" name="a_date">
 
 </div>
 </div>
@@ -96,7 +96,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quaerat laudan
 <div class="col-md-12">
 <div class="form-group form-group-cutom">
 <label for="exampleFormControlTextarea1">Your Message</label>
-<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+<textarea class="form-control" style="font-size:1rem" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
 </div>
 </div>
 </div>
