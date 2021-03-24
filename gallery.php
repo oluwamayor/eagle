@@ -1,5 +1,5 @@
 <?php
-include("logic/header.php");
+include("logic/gheader.php");
 ?>
 
 
