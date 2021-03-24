@@ -18,14 +18,17 @@
 <link rel="stylesheet" href="css/slick-theme.css">
 
 <link rel="stylesheet" href="css/style.css">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
-<link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
-<script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
+<link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+<link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+<link rel="stylesheet" href="assets/css/theme.min.css" />
+<link rel="stylesheet" href="assets/css/themes/creative.css" />
 
 <title>Eaglevision</title>
 </head>

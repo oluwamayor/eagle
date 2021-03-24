@@ -120,11 +120,14 @@ app.config(function($routeProvider) {
 </script>
 
 
+<script data-cfasync="false" src="js/jquery-3.5.1.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/slick.min.js"></script>
 
 <script src="js/script.js"></script>
+<script src="assets/js/theme-vendors.js"></script>
+<script src="assets/js/theme.min.js"></script>
 </body>
 </html>
