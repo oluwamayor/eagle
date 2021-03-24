@@ -2,7 +2,7 @@
 // include("logic/connect.php");
 ?>
 <?php
- include("logic/header.php");
+ include("logic/gheader.php");
 ?>
 <?php
 // include("logic/book.php");
