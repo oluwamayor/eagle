@@ -410,7 +410,7 @@ We Maintain Our Image
 <div class="row">
 <div class="col-md-12 col-lg-6">
 
-<img src="images/abt.jpg" class="img-fluid w-100" alt="#" />
+<img src="images/IMG-1915.jpg" class="img-fluid w-100" alt="#" />
 
 
 </div>
