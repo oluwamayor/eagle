@@ -8,13 +8,23 @@ include("logic/header.php");
   padding: 0 4px;
 }
 
+
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 33.3%;
   padding: 0 4px;
 }
+.details{
+    display:flex;
+    flex-position:flex-end;
+    position:relative;
+    top:-30px;
+    font-size:20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
 
+}
 .column img {
   margin-top: 8px;
   vertical-align: middle;
@@ -68,24 +78,62 @@ include("logic/header.php");
 <div class="container-fluid">
     <div class="row">
       <div class="column">
-        <img src="images/gallery/17.jpg" />
-        <img src="images/gallery/19.jpg" />
+          <div class="small">
+          <img src="images/gallery/17.jpg" />
+          <div class="details">
+              <span class="span">George Amani</span>
+          </div>
+          </div>
+       
+       <div class="small">
+       <img src="images/gallery/19.jpg" />
+       <div class="details">
+              <span class="span">George Amani</span>
+          </div>
+       </div>
+       
+
+
         <img src="images/gallery/14.jpg" />
+        <div class="details">
+              <span class="span">George Amani</span>
+          </div>
        
       </div>
       <div class="column">
       <img src="images/gallery/24.jpg" />
+      <div class="details">
+              <span class="span">George Amani</span>
+          </div>
         <img src="images/gallery/30.jpg" />
+        <div class="details">
+              <span class="span">George Amani</span>
+          </div>
         <img src="images/gallery/25.jpg" />
+        <div class="details">
+              <span class="span">George Amani</span>
+          </div>
       
 
       
       </div>
       <div class="column">
       <img src="images/gallery/8.jpg" />
+      <div class="details">
+              <span class="span">George Amani</span>
+          </div>
       <img src="images/gallery/7.jpg" />
+      <div class="details">
+              <span class="span">George Amani</span>
+          </div>
       <img src="images/gallery/16.jpg" />
+      <div class="details">
+              <span class="span">George Amani</span>
+          </div>
       <img src="images/gallery/29.jpg" />
+      <div class="details">
+              <span class="span">George Amani</span>
+          </div>
         
       </div>
     </div>
