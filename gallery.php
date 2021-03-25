@@ -77,7 +77,7 @@ include("logic/header.php");
       <img src="images/gallery/24.jpg" />
         <img src="images/gallery/30.jpg" />
         <img src="images/gallery/25.jpg" />
-        <img src="images/gallery/29.jpg" />
+      
 
       
       </div>
@@ -85,6 +85,7 @@ include("logic/header.php");
       <img src="images/gallery/8.jpg" />
       <img src="images/gallery/7.jpg" />
       <img src="images/gallery/16.jpg" />
+      <img src="images/gallery/29.jpg" />
         
       </div>
     </div>

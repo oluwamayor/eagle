@@ -107,8 +107,8 @@ Home
             </li>
 
             <li class="nav-item ">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                Shop
+                <a class="nav-link " href="collections" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Collections
                 </a>
                 </li>
 

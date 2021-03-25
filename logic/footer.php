@@ -30,7 +30,11 @@
     <a href="services"><i class="fas fa-angle-double-right"></i>Our Services</a>
     </li>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Gallery</a>
+    <a href="gallery"><i class="fas fa-angle-double-right"></i>Gallery</a>
+    </li>
+    <li>
+    <li>
+    <a href="#"><i class="fas fa-angle-double-right"></i>Collections</a>
     </li>
     <li>
     <a href="contact"><i class="fas fa-angle-double-right"></i>Contact Us</a>

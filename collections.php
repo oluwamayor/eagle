@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/collect.css">
 
   <!-- Demo styles -->
   
@@ -30,88 +30,95 @@
     
         <div class="swiper-slide">
            <div class="imgBx">
-              <img src="glasses/Alain-mikli-1-2-500x375.png">
+              <img src="images/glasses/Alain-mikli-1-2-500x375.png">
            </div>
            <div class="details">
-           <h3><span>Web Developer</span></h3>
+           <h3><span>Alain-mikli</span></h3>
            </div>
         </div>
      
                  
       <div class="swiper-slide"> 
         <div class="imgBx">
-        <img src="glasses/Alain-mikli-2-1-500x375.png">
+        <img src="images/glasses/Alain-mikli-2-1-500x375.png">
         </div>
         <div class="details">
 
-           <h3><span>Web Developer</span></h3>
+           <h3><span>Alain-mikli</span></h3>
          </div>
       </div>
 
       <div class="swiper-slide">
         <div class="imgBx">
-       <img src="glasses/Alain-mikli-3-500x375.png">
+       <img src="images/glasses/Alain-mikli-3-500x375.png">
         </div>
         <div class="details">
-           <h3><span>Web Developer</span></h3>
+           <h3><span>Alain-mikli</span></h3>
          </div>
      </div>
 
 
       <div class="swiper-slide"> 
        <div class="imgBx">
-        <img src="glasses/Chopard-1-500x375.png">
+        <img src="images/glasses/Chopard-1-500x375.png">
        </div>
        <div class="details">
-           <h3><span>Web Developer</span></h3>
+           <h3><span>Chopard</span></h3>
          </div>
       </div>
 
 
       <div class="swiper-slide">
        <div class="imgBx">
-       <img src="glasses/Bvlgari-500x375.png">
+       <img src="images/glasses/Bvlgari-500x375.png">
        </div>
        <div class="details">
-          <h3><span>Web Developer</span></h3>
+          <h3><span>Bvlgari</span></h3>
         </div>
      </div>
 
       <div class="swiper-slide">
        <div class="imgBx">
-       <img src="glasses/Bvlgari-BLACK-500x375.png">
+       <img src="images/glasses/Bvlgari-BLACK-500x375.png">
        </div>
        <div class="details">
-          <h3><span>Web Developer</span></h3>
+          <h3><span>Bvlgari-BLACK</span></h3>
         </div>
      </div>
       <div class="swiper-slide"> 
        <div class="imgBx">
-        <img src="glasses/Bvlgari-BLUE-FRONT-500x375.png">
-       </div>
-             <h3><span>Web Developer</span></h3>
-      </div>
-      <div class="swiper-slide"> 
-       <div class="imgBx">
-        <img src="glasses/Bvlgari-GOLD-FRONT-500x375.png">
+        <img src="images/glasses/Bvlgari-BLUE-FRONT-500x375.png">
        </div>
        <div class="details">
-               <h3><span>Web Developer</span></h3>
-             </div>
+             <h3><span>Bvlgari-BLUE</span></h3>
+           </div>
       </div>
+
       <div class="swiper-slide"> 
        <div class="imgBx">
-        <img src="glasses/chopard-gold4-500x375.png">
+        <img src="images/glasses/Bvlgari-GOLD-FRONT-500x375.png">
        </div>
        <div class="details">
-                  <h3><span>Web Developer</span></h3>
-                </div>
+               <h3><span>Bvlgari-GOLD</span></h3>
+        </div>
       </div>
+
+
+      <div class="swiper-slide"> 
+       <div class="imgBx">
+        <img src="images/glasses/chopard-gold4-500x375.png">
+       </div>
+       <div class="details">
+                  <h3><span>chopard-gold</span></h3>
+        </div>
+      </div>
+    
+
       <div class="swiper-slide">  
        <div class="imgBx">
-        <img src="glasses/gucci-brown-500x375.png">
+        <img src="images/glasses/gucci-brown-500x375.png">
         <div class="details">
-           <h3><span>Web Developer</span></h3>
+           <h3><span>gucci-brown</span></h3>
          </div>
        </div>
       </div>
@@ -124,7 +131,7 @@
 
 
 <div class="btn">
-  <a href="">
+  <a href="index">
     <span></span>
      <span></span>
       <span></span>
