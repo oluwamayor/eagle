@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/all.css">
 

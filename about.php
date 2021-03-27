@@ -39,10 +39,10 @@ include("logic/header.php");
 <div class="video-play-text">
 <h2>Who We Are</h2>
 <p>
-    Here at Eaglevision Eye Care Centre, we offer comprehensive eye checks that include Glaucoma and Cataract screening, Management of eye diseases, Occupational/Sports eye care services, contact lens services as well as dispensing of premium lenses.
+    Here at Eaglevision Eye Care Centre, we offer comprehensive eye checks that include Glaucoma and Cataract screening, Management of eye diseases, Occupational/Sports eye care services, contact lens services as well as dispensing premium prescription lenses.
 </p>
 <p>
-    We also offer optical services, select spectacle prescriptions which can be ready in 24 hours. We also have in our store great designer sunglasses, optical frames, contact lenses amongst other optical accessories.
+In addition we have in our store a great collection of very unique and iconic designs of optical frames,sunglasses amongst other optical accessories .We recommend frames and lenses that fits your face,meets your visual needs,your prescription and ,of course your style and personality.
 
 </p>
 <div class="row">
@@ -54,7 +54,7 @@ include("logic/header.php");
     </div>
     <div class="col-md-6">
     <div class="facilities green">
-    <h3>215+</h3>
+    <h3>5+</h3>
     <span>Expert Specialists</span>
     </div>
     </div>
@@ -68,7 +68,7 @@ include("logic/header.php");
     </div>
     <div class="col-md-6">
     <div class="facilities gray">
-    <h3>106+</h3>
+    <h3>15+</h3>
     <span>Years of Experience</span>
     </div>
     </div>
@@ -92,10 +92,11 @@ include("logic/header.php");
 <span>Who we are -----</span>
 <h2>More about us</h2>
 <p>
-    Eaglevision Eye Care Center is home to some of the nation's finest ophthalmologists who specialize not only in general ophthalmology but also in pediatric ophthalmology, cataracts, and glaucoma.  
+Eaglevision Eye care Centre is home to some of the Nation’s finest Eye Specialists,Our team of Ophthalmologist,Optometrists,Opticians and staff are committed to our legacy of comprehensive eye care with personalized service.
+
 </p>
 <p>
-    Additionally, our services expand beyond ophthalmology to assure we can offer our patients a one-stop-shop for all of their eye care needs. That’s why we also offer optometry, glasses, and oculoplastics to name a few.
+We are committed to the highest ethical standards,to the investment of advanced instrumentation,and to the nurturing of long term relationships with each patient,their families and friends.Excellent service with complete integrity is the foundation our patients can rely on. 
 </p>
 <hr />
 
@@ -118,14 +119,14 @@ include("logic/header.php");
 <div class="col-md-4">
 <div class="mission-wrap">
 <h3>Our Mission</h3>
-<p>Improving patients' quality of life through excellence in eye care and patient experience.</p>
+<p>To grow and expand our network of clinics and provide the highest quality and superior products and services that enhance people’s lives.We deliver on this by fostering a work environment that values and rewards integrity,respect and performance while contributing positively to the communities we serve.</p>
 
 </div>
 </div>
 <div class="col-md-4">
 <div class="mission-wrap">
 <h3>Our Vision</h3>
-<p>To create the largest network of vertically integrated ophthalmic service clinics in Nigeria, physician-owned and professionally managed. .</p>
+<p>To be leaders in the West African Healthcare industry through utilizing the most advanced technology and by partnering with the pioneers,innovators and opinion leaders in the Optical industry.</p>
 
 </div>
 </div>

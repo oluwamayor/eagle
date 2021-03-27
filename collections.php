@@ -12,16 +12,32 @@
         <link rel="stylesheet" type="text/css" href="css/collect.css" />
     </head>
     <body>
-        <div class="txt"><h2>Welcome To Our Show Room</h2></div>
+        <div class="txt"><h2>Some of Our Collections</h2></div>
         <div class="mummy">
+            <div class="names">
+                <h4>Product Categories</h4>
+                <ul>
+                    <li>Alain mikli</li>
+                    <li>Ana Hickmann</li>
+                    <li>Burberry</li>
+                    <li>BVLGARI</li>
+                    <li>Ray Ban</li>
+                    <li>Prada</li>
+                    <li>Miu Miu</li>
+                    <li>Freakshow</li>
+                    <li>Glasses</li>
+                    <li>Von Arkel</li>
+                    <li>Lanvin paris</li>
+                </ul>
+            </div>
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="imgBx"><img src="images/glasses/Alain-mikli-1-2-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Alain-mikli</span><br />
-                                <span>₦105,000.00</span>
+                                <!-- <span>Alain-mikli</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -29,8 +45,8 @@
                         <div class="imgBx"><img src="images/glasses/Alain-mikli-2-1-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Alain-mikli</span><br />
-                                <span>₦105,000.00</span>
+                                <!-- <span>Alain-mikli</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -38,8 +54,8 @@
                         <div class="imgBx"><img src="images/glasses/Alain-mikli-3-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Alain-mikli</span><br />
-                                <span>₦105,000.00</span>
+                                <!-- <span>Alain-mikli</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -47,8 +63,8 @@
                         <div class="imgBx"><img src="images/glasses/Chopard-1-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Chopard</span><br />
-                                <span>₦145,000.00</span>
+                                <!-- <span>Chopard</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -56,8 +72,8 @@
                         <div class="imgBx"><img src="images/glasses/Bvlgari-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Bvlgari</span><br />
-                                <span>₦92,000.00</span>
+                                <!-- <span>Bvlgari</span><br /> -->
+                            
                             </h3>
                         </div>
                     </div>
@@ -65,8 +81,8 @@
                         <div class="imgBx"><img src="images/glasses/Bvlgari-BLACK-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Bvlgari-BLACK</span><br />
-                                <span>₦105,000.00</span>
+                                <!-- <span>Bvlgari-BLACK</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -74,8 +90,8 @@
                         <div class="imgBx"><img src="images/glasses/Bvlgari-BLUE-FRONT-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Bvlgari-BLUE</span><br />
-                                <span>₦125,000.00</span>
+                                <!-- <span>Bvlgari-BLUE</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -83,8 +99,8 @@
                         <div class="imgBx"><img src="images/glasses/Bvlgari-GOLD-FRONT-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>Bvlgari-GOLD</span><br />
-                                <span>₦110,000.00</span>
+                                <!-- <span>Bvlgari-GOLD</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -92,8 +108,8 @@
                       <div class="imgBx"><img src="images/glasses/chopard-gold4-500x375.png" /></div>
                         <div class="details">
                             <h3>
-                                <span>chopard-gold</span><br />
-                                <span>₦110,000.00</span>
+                                <!-- <span>chopard-gold</span><br /> -->
+                                
                             </h3>
                         </div>
                     </div>
@@ -101,20 +117,19 @@
                         <div class="imgBx"><img src="images/glasses/gucci-brown-500x375.png" /></div>
                             <div class="details">
                                 <h3>
-                                    <span>Burberry</span><br />
-                                    <span>₦92,000.00</span>
+                                    <!-- <span>Burberry</span><br /> -->
+                                
                                 </h3>
                             </div>
                     </div>
                 </div>
             </div>
-            <div class="btn">
-                <a href="index"> <span></span> <span></span> <span></span> <span></span> End Show </a>
-            </div>
+            
         </div>
-        <audio autoplay style="visibility: hidden;">
-            <source src="Violin-Concerto-no.-3-in-G-major-K.-216.mp3" type="audio/mp3" />
-        </audio>
+        <div class="btn">
+                <a href="index"> <span></span> <span></span> <span></span> <span></span> Exit</a>
+            </div>
+    
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script>
             var swiper = new Swiper(".swiper-container", {

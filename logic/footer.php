@@ -34,7 +34,7 @@
     </li>
     <li>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Collections</a>
+    <a href="collections"><i class="fas fa-angle-double-right"></i>Collections</a>
     </li>
     <li>
     <a href="contact"><i class="fas fa-angle-double-right"></i>Contact Us</a>
