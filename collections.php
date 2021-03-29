@@ -15,7 +15,7 @@
         <div class="txt"><h2>Some of Our Collections</h2></div>
         <div class="mummy">
             <div class="names">
-                <h4>Product Categories</h4>
+                <h4>Collection Names</h4>
                 <ul>
                     <li>Alain mikli</li>
                     <li>Ana Hickmann</li>

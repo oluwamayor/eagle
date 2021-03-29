@@ -62,8 +62,8 @@ include("logic/header.php");
 <div class="col-md-6">
 <div class="sub-header_content">
 <p>Our Gallery</p>
-<h3>Your eyes are even smaller, yet they behold the world.</h3>
-<span><i>Rumi</i></span>
+<h3>The eyes have one language everywhere</h3>
+<span><i>George Herbet</i></span>
 </div>
 </div>
 <div class="col-md-6">

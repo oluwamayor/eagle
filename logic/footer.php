@@ -45,13 +45,13 @@
     </div>
     <div class="col-sm-6 col-md-4 col-lg-2">
     <div class="foot-link-box">
-    <h4>Our Services</h4>
+    <h4>Some Services</h4>
     <ul>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Cataract Screening</a>
+    <a href="#"><i class="fas fa-angle-double-right"></i>Premium Lenses</a>
     </li>
     <li>
-    <a href="#"><i class="fas fa-angle-double-right"></i>Glaucoma Screening</a>
+    <a href="#"><i class="fas fa-angle-double-right"></i>Dry Eye Center</a>
     </li>
     <li>
     <a href="#"><i class="fas fa-angle-double-right"></i>Lens Services</a>
@@ -71,7 +71,7 @@
     <div class="col-md-4 col-lg-2 offset-lg-1">
     <div class="foot-link-box footlink-box_btn">
     <a href="https://doctorcare247.com/" class="btn btn-outline-success">Find a Doctor</a>
-    <a href="" class="btn btn-outline-success">Career</a>
+    <a href="https://www.monster.com/" class="btn btn-outline-success">Career</a>
     <a href="https://www.medicalnewstoday.com/newsletter" class="btn btn-outline-success">Newsletter</a>
     <ul>
     <li>

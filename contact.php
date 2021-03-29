@@ -1,5 +1,11 @@
 <?php
+include("logic/connect.php");
+?>
+<?php
 include("logic/header.php");
+?>
+<?php 
+include("logic/contact.php");
 ?>
 
 
@@ -73,20 +79,20 @@ Oniru, Lekki, Lagos.</h6>
 <div class="get-in-touch get-in-touch-style2">
 <img src="images/contact-form-bg.png" class="img-fluid get-in-bg" alt="#">
 <h3>Get in Touch with Us</h3>
-<form action="https://api.web3forms.com/submit" method="POST" id="form">
+<form action="" method="POST">
 
 
 <input type="hidden" name="apikey" value="YOUR_ACCESS_KEY_HERE">
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" name="first name" placeholder="First Name" required>
+<input type="text" class="form-control" name="fname" placeholder="First Name" required>
 <i class="far fa-user"></i>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" name="last name" placeholder="Last Name" required>
+<input type="text" class="form-control" name="lname" placeholder="Last Name" required>
 <i class="far fa-user"></i>
 </div>
 </div>
@@ -94,13 +100,13 @@ Oniru, Lekki, Lagos.</h6>
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="email" class="form-control" name="email address" placeholder="Your Email" required>
+<input type="email" class="form-control" name="email" placeholder="Your Email" required>
 <i class="far fa-envelope"></i>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="number" class="form-control" name="phone number" placeholder="Your Phone Number" required>
+<input type="number" class="form-control" name="phone" placeholder="Your Phone Number" required>
 <i class="fas fa-phone"></i>
 </div>
 </div>
@@ -108,9 +114,9 @@ Oniru, Lekki, Lagos.</h6>
 <div class="row">
 <div class="col-md-12">
 <div class="form-group textarea-icon">
-<textarea class="form-control" name="message" required placeholder="Your Message" id="" rows="3"></textarea>
+<textarea class="form-control" name="msg" required placeholder="Your Message" id="" rows="3"></textarea>
 <i class="far fa-envelope"></i>
-<button type="submit" class="btn btn-success">SEND</button>
+<button type="submit" class="btn btn-success" name="contactbtn">SEND</button>
 </div>
 </div>
 </div>

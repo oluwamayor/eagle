@@ -501,7 +501,7 @@ Lead Optometrist
 <img src="images/service-icon3.png" alt="#" />
 <h3>Management of Eye Diseases</h3>
  <p>
-    From annual check-ups and health examinations to glaucoma screenings and treatment you can schedule an appointment with us today
+ Our experienced Eye Care team is specially trained to diagnose,treat and help monitor various eye conditions ranging from infections, inflammation of the eye, pain, dry eye,allergies and much more.Whether you have been given a previous diagnosis or you need a referral, our knowledgeable team is here to help you achieve optimal eye health.
 </p>
 
 <div class="service-bg-icon">
@@ -751,6 +751,24 @@ of an emergency.
         <div class="testi-styled-bg">
         <img src="images/testi-side-img_05.png" class="img-fluid" alt="#" />
         </div>
+    </div>
+    
+    <div class="testimonial-wrap quaternary-br-color">
+            <img src="images/tes10.jpg" class="img-fluid testi-img-icon" alt="#" />
+            <ul>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            </ul>
+            <p>
+            I visited Eaglevision Eye Care Centre for the first time, three years ago and I have not looked back since then.My lenses and Frames were updated to meet with standards I see in the western world and I am proud to identify with the brand.My family and friends that I referred there are all equally happy.
+            </p>
+            <span class="testi-name" style="position: relative;left:10%">Mr Augustine Ebose Osegha</span>
+            <div class="testi-styled-bg">
+            <img src="images/testi-side-img_05.png" class="img-fluid" alt="#" />
+            </div>
         </div>
 
         <div class="testimonial-wrap quaternary-br-color">
@@ -763,13 +781,13 @@ of an emergency.
             <li><i class="fas fa-star"></i></li>
             </ul>
             <p>
-                Eaglevision provides best-in- class optical care and is client friendly.
+            Eaglevision provides best-in-class optical care and is client friendly.They always get my prescription right and their follow up service is top notch.
             </p>
             <span class="testi-name" style="position: relative;left:10%">Dr. Adesegun A. Akin-Olugbade, OON</span>
             <div class="testi-styled-bg">
             <img src="images/testi-side-img_05.png" class="img-fluid" alt="#" />
             </div>
-            </div>
+        </div>
   
 
 <div class="testimonial-wrap quaternary-br-color">
@@ -782,7 +800,7 @@ of an emergency.
 <li><i class="fas fa-star"></i></li>
 </ul>
 <p>
-    Eaglevision Eye Care Center possess knowledgeable staff that carefully explain in detail, every information their patients need to know. They made sure I was happy with my lenses when I had to go from gas permeable to soft lenses. They are very thorough and make sure all patients are happy with their prescriptions. I have been going to Eaglevision Eye Care Center for about four years, and I must add, I have been very happy.
+Eaglevision Eye Care Centre is just amazing! Courteous Staff,super welcoming environment/interior as well as very personalized and professional service.I have referred my sibling here and her experience is no different.They remain my favourite Eye Clinic.
 </p>
 <span class="testi-name">Oghenerhoro Oghuvbu</span>
 <div class="testi-styled-bg">
@@ -800,7 +818,7 @@ of an emergency.
 <li><i class="fas fa-star"></i></li>
 </ul>
 <p>
-    I recently went to Eaglevision Eye Care Center for my annual eye exam. I explained that I hadn’t really been able to wear my contacts because my eyes were bothering me. During the exam, I was walked through exactly what processes where going on and what the examiner was looking for. After the eye examinations, I was told that I have dry eyes, which is why my contacts were bothering me. Got the best service and I'm looking better with good vision.
+Dr. Karen Adasen has been my personal Optometrist for over ten years,I have trusted her Professional judgement on both my prescription spectacles,optical frames as well as my contact lenses,and I have always been immensely satisfied.
 </p>
 <span class="testi-name">NIKIRU AJAH</span>
 <div class="testi-styled-bg">

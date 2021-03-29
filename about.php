@@ -32,7 +32,7 @@ include("logic/header.php");
 <div class="row">
 <div class="col-md-12 col-lg-6">
 
-<img src="images/abt.jpg" class="img-fluid w-100" alt="#" />
+<img src="images/karen.JPG" class="img-fluid w-100" alt="#" />
 
 </div>
 <div class="col-md-12 col-lg-6">
@@ -42,7 +42,7 @@ include("logic/header.php");
     Here at Eaglevision Eye Care Centre, we offer comprehensive eye checks that include Glaucoma and Cataract screening, Management of eye diseases, Occupational/Sports eye care services, contact lens services as well as dispensing premium prescription lenses.
 </p>
 <p>
-In addition we have in our store a great collection of very unique and iconic designs of optical frames,sunglasses amongst other optical accessories .We recommend frames and lenses that fits your face,meets your visual needs,your prescription and ,of course your style and personality.
+In addition we have in our store a great collection of very unique and iconic designs of optical frames,sunglasses amongst other optical accessories .We recommend frames and lenses that fit your face,meets your visual needs,your prescription and of course, your style and personality.
 
 </p>
 <div class="row">
