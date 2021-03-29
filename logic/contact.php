@@ -13,7 +13,7 @@
 		// Check fields are empty or not
 		if($fname == '' || $lname == '' || $phone == ''   || $email == '' || $msg== '')
 		{
-			$isValid = false;
+			
             echo "
             <script type=\"text/javascript\">
             Swal.fire({
@@ -26,8 +26,8 @@
         ";
 		}
 		
-			elseif ($isValid && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		  	$isValid = false;
+			elseif ( !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+		  	
               echo "
               <script type=\"text/javascript\">
               Swal.fire({
@@ -58,36 +58,35 @@
 		else {
 			
 		     
-               	   include_once "PHPMailer/PHPMailer.php";
-
+               	include_once "PHPMailer/PHPMailer.php";
                 $mail = new PHPMailer();
                 $mail->setFrom($email);
                 $mail->addAddress('princemayor96@gmail.com');
                 $mail->Subject = "Message Received (Contact Page)";
                 $mail->isHTML(true);
-                $mail->Body = "<h3>First Name : $fname <br>Last Name : $lname <br Email: $email <br>Contact : $phone <br Message : $msg</h3>";
+                $mail->Body = "<h3>First Name : $fname <br>Last Name : $lname <br> Email: $email <br>Contact : $phone <br> Message : $msg</h3>";
 
                 if ($mail->send())
-                          echo "
+            echo "
             <script type=\"text/javascript\">
             Swal.fire({
-  position: 'top-end',
-  icon: 'success',
-  title: 'Message Sent! Thank you for contacting us',
-  showConfirmButton: false,
-  timer: 3500
-})
+            position: 'top-end',
+            icon: 'success',
+            title: 'Message Sent! Thank you for contacting us',
+            showConfirmButton: false,
+            timer: 3500
+                     })
             </script>
         ";
                 else
                            echo "
               <script type=\"text/javascript\">
-              Swal.fire({
+                Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
                 text: 'Something Happened. Try again!!'
                 
-              })
+                         })
               </script>
           ";
 			
