@@ -39,6 +39,9 @@
     <li>
     <a href="contact"><i class="fas fa-angle-double-right"></i>Contact Us</a>
     </li>
+    <li>
+    <a href="registration"><i class="fas fa-angle-double-right"></i>Registration</a>
+    </li>
    
     </ul>
     </div>

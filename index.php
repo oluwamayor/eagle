@@ -188,7 +188,7 @@ Detail</a></li>
 </ul>
 </li> -->
 <li class="nav-item">
-<a class="nav-link btn btn-outline-primary appointment-btn-top" href="#">Register</a>
+<a class="nav-link btn btn-outline-primary appointment-btn-top" href="registration">Register</a>
 </li>
 </ul>
 </div>
