@@ -1,10 +1,10 @@
-
+<?php
+include("logic/send.php");
+?>
 <?php
 include("logic/header.php");
 ?>
-<?php 
-include("logic/send.php");
-?>
+
 
 
 <section class="space sub-header">
@@ -81,35 +81,38 @@ Oniru, Lekki, Lagos.</h6>
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" name="fname" placeholder="First Name" required style="color:#000">
+<input onkeyup="valid(this)" onblur="valid(this)" type="text" class="form-control" name="fname" placeholder="Full Name" required style="font-size:1rem;color:#000">
 <i class="far fa-user"></i>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" name="lname" placeholder="Last Name" required style="color:#000">
-<i class="far fa-user"></i>
+<input type="email"  class="form-control" name="email" placeholder="Your Email" required style="font-size:1rem;color:#000">
+<i class="far fa-envelope"></i>
 </div>
 </div>
 </div>
+
+
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="email" class="form-control" name="email" placeholder="Your Email" required style="color:#000">
+<input type="text"  class="form-control" name="subject" placeholder="Subject" required style="font-size:1rem;color:#000">
 <i class="far fa-envelope"></i>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="number" class="form-control" name="phone" placeholder="Your Phone Number" required style="color:#000">
+<input type="number" style="font-size:1rem;color:#000" class="form-control" name="phone" pattern="[0-9]*" inputmode="numeric" placeholder="Your Phone Number">
 <i class="fas fa-phone"></i>
 </div>
 </div>
 </div>
+
 <div class="row">
 <div class="col-md-12">
 <div class="form-group textarea-icon">
-<textarea style="color:#000" class="form-control" name="msg" required placeholder="Your Message" id="" rows="3"></textarea>
+<textarea onkeyup="valid(this)" onblur="valid(this)" style="font-size:1rem;color:#000" class="form-control" name="msg" required placeholder="Your Message" id="" rows="3"></textarea>
 <i class="far fa-envelope"></i>
 <button type="submit" class="btn btn-success" name="contactbtn">SEND</button>
 </div>

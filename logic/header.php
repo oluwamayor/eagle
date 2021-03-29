@@ -25,6 +25,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script type="text/JavaScript">
+function valid(f) {
+!(/^[A-z&#209;&#241;0-9]*$/i).test(f.value)?f.value = f.value.replace(/[^A-z&209;&#241;0-9]/ig,''):null;
+} 
+</script>
 
 
 <title>Eaglevision</title>

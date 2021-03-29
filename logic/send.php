@@ -1,82 +1,52 @@
+
+
+
+
+
 <?php
 
-	use PHPMailer\PHPMailer\PHPMailer;
-    
-     $mail = new PHPMailer; 
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-	if (isset($_POST['contactbtn'])) {
-	
-		$fname = $_POST['fname'];
-		$lname = $_POST['lname'];
-		$phone = $_POST['phone'];
-        $email = $_POST['email'];
-		$msg   = $_POST['msg'];
-      
-		// Check fields are empty or not
-		if($fname == '' || $lname == '' || $phone == ''   || $email == '' || $msg== '')
-		{
-			
+        # FIX: Replace this email with recipient email
+        $mail_to = "princemayor96@gmail.com";
+        
+        # Sender Data
+        $subject = trim($_POST["subject"]);
+        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
+        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+        $phone = trim($_POST["phone"]);
+        $message = trim($_POST["msg"]);
+        
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($subject) OR empty($message) || strlen($phone) < 11 || strlen($phone) > 11  ) {
+            # Set a 400 (bad request) response code and exit.
+            http_response_code(400);
             echo "
             <script type=\"text/javascript\">
             Swal.fire({
               icon: 'error',
               title: 'Oops...',
-              text: 'Fill all fields!!'
+              text: 'Please complete form details properly'
               
             })
             </script>
-        ";
-		}
-		
-			elseif ( !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-		  	
-              echo "
-              <script type=\"text/javascript\">
-              Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Invalid Email!'
-                
-              })
-              </script>
-          ";
-		  	
-		}
-      
-			elseif (strlen($phone) < 11 || strlen($phone) > 11 ) {
-              echo "
-              <script type=\"text/javascript\">
-              Swal.fire({
-                icon: 'error',
-                title: 'not possible...',
-                text: 'phone number must be 11 digits'
-                
-              })
-              </script>
-          ";
-		  	
-		}
-	
-        else{
-            include_once "PHPMailer/Exception.php";
-            include_once "PHPMailer/PHPMailer.php";
-            include_once "PHPMailer/SMTP.php";
-            $mail->isSMTP();
-            $mail->Host = "smtp.gmail.com";
-            $mail->SMTPAuth = true;
-            $mail->Username = "demot342@gmail.com"; // Gmail address which you want to use as SMTP server
-            $mail->Password = "demot78678"; // Gmail address Password
-            $mail->SMTPSecure = "ssl";
-            $mail->Port = "587";
+            ";
+            exit;
+        }
         
-            $mail->setFrom('demot342@gmail.com'); // Gmail address which you used as SMTP server
-            $mail->addAddress('princemayor96@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
-        
-            $mail->isHTML(true);
-            $mail->Subject = 'Message Received (Contact Page)';
-            $mail->Body = "<h3>First Name : $name <br> Last Name : $lname <br> Email: $email <br>Phone Number : $phone <br> Message : $msg</h3>";
-        
-            $mail->send();
+        # Mail Content
+        $content = "Name: $name\n";
+        $content .= "Email: $email\n\n";
+        $content .= "Phone: $phone\n";
+        $content .= "Message:\n$message\n";
+
+        # email headers.
+        $headers = "From: $name <$email>";
+
+        # Send the email.
+        $success = mail($mail_to, $subject, $content, $headers);
+        if ($success) {
+            # Set a 200 (okay) response code.
+            http_response_code(200);
             echo "
             <script type=\"text/javascript\">
             Swal.fire({
@@ -87,12 +57,35 @@
             timer: 3500
                      })
             </script>
+            ";
+        } else {
+            # Set a 500 (internal server error) response code.
+            http_response_code(500);
+            echo "
+            <script type=\"text/javascript\">
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'Something went wrong'
+              
+            })
+            </script>
+            ";
+        }
+
+    } else {
+        # Not a POST request, set a 403 (forbidden) response code.
+        http_response_code(403);
+        echo "
+        <script type=\"text/javascript\">
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'There was a problem with your submission'
+          
+        })
+        </script>
         ";
-          }
-	}
+    }
+
 ?>
-
-
-
-
-
