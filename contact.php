@@ -1,10 +1,13 @@
 <?php
-include("logic/send.php");
+include("logic/connect.php");
 ?>
 <?php
 include("logic/header.php");
 ?>
 
+<?php
+include("logic/send.php");
+?>
 
 
 <section class="space sub-header">
@@ -77,16 +80,9 @@ Oniru, Lekki, Lagos.</h6>
 <div class="get-in-touch get-in-touch-style2">
 <img src="images/contact-form-bg.png" class="img-fluid get-in-bg" alt="#">
 <h3>Get in Touch with Us</h3>
-<form class="contact__form" method="post" action="logic/send.php">
+<form  method="post" >
                                 
-                                <!-- form message -->
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                            Your message was sent successfully.
-                                        </div>
-                                    </div>
-                                </div>
+                         
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
@@ -113,7 +109,7 @@ Oniru, Lekki, Lagos.</h6>
 
 <div class="col-md-6">
 <div class="form-group">
-<input type="text"  class="form-control" name="subject" placeholder="Subject" required style="font-size:1rem;color:#000">
+<input type="text"  class="form-control" name="subject" placeholder="Subject"  style="font-size:1rem;color:#000">
 <i class="far fa-envelope"></i>
 </div>
 </div>
@@ -126,7 +122,7 @@ Oniru, Lekki, Lagos.</h6>
 <div class="form-group textarea-icon">
 <textarea  style="font-size:1rem;color:#000" class="form-control" name="msg" required placeholder="Your Message" id="" rows="3"></textarea>
 <i class="far fa-envelope"></i>
-<button type="submit" class="btn btn-success" name="submit">SEND</button>
+<button type="submit" class="btn btn-success" name="cmt">SEND</button>
 </div>
 </div>
 </div>
