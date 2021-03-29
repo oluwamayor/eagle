@@ -47,17 +47,9 @@
         if ($success) {
             # Set a 200 (okay) response code.
             http_response_code(200);
-            echo "
-            <script type=\"text/javascript\">
-            Swal.fire({
-            position: 'top-end',
-            icon: 'success',
-            title: 'Message Sent! Thank you for contacting us',
-            showConfirmButton: false,
-            timer: 3500
-                     })
-            </script>
-            ";
+            
+            echo "Thank You! Your message has been sent.";
+          
         } else {
             # Set a 500 (internal server error) response code.
             http_response_code(500);
