@@ -3,7 +3,7 @@
 include("logic/header.php");
 ?>
 <?php 
-include("logic/contact.php");
+include("logic/send.php");
 ?>
 
 
