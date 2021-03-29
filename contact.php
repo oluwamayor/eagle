@@ -1,6 +1,4 @@
-<?php
-include("logic/connect.php");
-?>
+
 <?php
 include("logic/header.php");
 ?>
