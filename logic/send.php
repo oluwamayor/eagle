@@ -1,5 +1,5 @@
 <?php
-	$msg = "";
+	$mine = "princemayor96@gmail.com";
 	use PHPMailer\PHPMailer\PHPMailer;
 
 	if (isset($_POST['cmt'])) {
@@ -70,7 +70,7 @@
 
                 $mail = new PHPMailer();
                 $mail->setFrom($email);
-                $mail->addAddress("princemayor96@gmail.com");
+                $mail->addAddress($mine);
                 $mail->Subject = "Message From Contact Page";
                 $mail->isHTML(true);
                 $mail->Body = "
