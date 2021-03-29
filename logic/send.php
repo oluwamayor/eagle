@@ -1,8 +1,4 @@
 
-
-
-
-
 <?php
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -12,7 +8,7 @@
         
         # Sender Data
         $subject = trim($_POST["subject"]);
-        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["name"])));
+        $name = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["fname"])));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $phone = trim($_POST["phone"]);
         $message = trim($_POST["msg"]);
