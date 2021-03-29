@@ -53,7 +53,7 @@ include("logic/contact.php");
 <i class="fas fa-envelope"></i>
 <div class="contact-title_icon">
 <p>Email</p>
-<a href="mailto:info@eaglevisionltd.com" class="__cf_email__" data-cfemail="147d7a727b54716c75796478713a777b79" style="text-decoration: none;">
+<a href="mailto:info@eaglevisionltd.com" style="text-decoration: none;">
 <h6 style="color: #4D72D0;">info@eaglevisionltd.com</h6></a>
 </div>
 </div>
@@ -78,19 +78,16 @@ Oniru, Lekki, Lagos.</h6>
 <img src="images/contact-form-bg.png" class="img-fluid get-in-bg" alt="#">
 <h3>Get in Touch with Us</h3>
 <form action="" method="POST">
-
-
-<input type="hidden" name="apikey" value="YOUR_ACCESS_KEY_HERE">
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" name="fname" placeholder="First Name" required>
+<input type="text" class="form-control" name="fname" placeholder="First Name" required style="color:#000">
 <i class="far fa-user"></i>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="text" class="form-control" name="lname" placeholder="Last Name" required>
+<input type="text" class="form-control" name="lname" placeholder="Last Name" required style="color:#000">
 <i class="far fa-user"></i>
 </div>
 </div>
@@ -98,13 +95,13 @@ Oniru, Lekki, Lagos.</h6>
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="email" class="form-control" name="email" placeholder="Your Email" required>
+<input type="email" class="form-control" name="email" placeholder="Your Email" required style="color:#000">
 <i class="far fa-envelope"></i>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<input type="number" class="form-control" name="phone" placeholder="Your Phone Number" required>
+<input type="number" class="form-control" name="phone" placeholder="Your Phone Number" required style="color:#000">
 <i class="fas fa-phone"></i>
 </div>
 </div>
@@ -112,7 +109,7 @@ Oniru, Lekki, Lagos.</h6>
 <div class="row">
 <div class="col-md-12">
 <div class="form-group textarea-icon">
-<textarea class="form-control" name="msg" required placeholder="Your Message" id="" rows="3"></textarea>
+<textarea style="color:#000" class="form-control" name="msg" required placeholder="Your Message" id="" rows="3"></textarea>
 <i class="far fa-envelope"></i>
 <button type="submit" class="btn btn-success" name="contactbtn">SEND</button>
 </div>
