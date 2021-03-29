@@ -74,10 +74,11 @@
                 $mail->Subject = "Message From Contact Page";
                 $mail->isHTML(true);
                 $mail->Body = "
-                 $fname<br>
-                 $phone<br>
-                 $msg<br>
-                 $email
+               <strong> Full Name:</strong>     $fname<br>
+               <strong> Phone Number:</strong>   $phone<br>
+               <strong> Email:       </strong>   $email<br>
+               <strong> Message:     </strong>   $msg
+                
                 ";
 
                 if ($mail->send())
