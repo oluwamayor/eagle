@@ -106,16 +106,19 @@ Oniru, Lekki, Lagos.</h6>
 <div class="row">
 <div class="col-md-6">
 <div class="form-group">
-<input type="text"  class="form-control" name="subject" placeholder="Subject" required style="font-size:1rem;color:#000">
-<i class="far fa-envelope"></i>
-</div>
-</div>
-<div class="col-md-6">
-<div class="form-group">
 <input type="number" style="font-size:1rem;color:#000" class="form-control" name="phone" pattern="[0-9]*" inputmode="numeric" placeholder="Your Phone Number">
 <i class="fas fa-phone"></i>
 </div>
 </div>
+
+<div class="col-md-6">
+<div class="form-group">
+<input type="text"  class="form-control" name="subject" placeholder="Subject" required style="font-size:1rem;color:#000">
+<i class="far fa-envelope"></i>
+</div>
+</div>
+
+
 </div>
 
 <div class="row">
