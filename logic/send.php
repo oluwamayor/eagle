@@ -69,7 +69,7 @@
                	   include_once "PHPMailer/PHPMailer.php";
 
                 $mail = new PHPMailer();
-                $mail->setFrom($email);
+                $mail->setFrom('contact@eaglevisionltd.com');
                 $mail->addAddress($mine);
                 $mail->Subject = "Message From Contact Page";
                 $mail->isHTML(true);
