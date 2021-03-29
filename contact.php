@@ -80,7 +80,7 @@ Oniru, Lekki, Lagos.</h6>
 <div class="get-in-touch get-in-touch-style2">
 <img src="images/contact-form-bg.png" class="img-fluid get-in-bg" alt="#">
 <h3>Get in Touch with Us</h3>
-<form  method="post" >
+<form  method="POST" action="" >
                                 
                          
 <div class="row">
