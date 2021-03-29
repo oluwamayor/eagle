@@ -66,7 +66,7 @@
             $mail->Host = "smtp.gmail.com";
             $mail->SMTPAuth = true;
             $mail->Username = "demot342@gmail.com"; // Gmail address which you want to use as SMTP server
-            $mail->Password = "demot_$$78"; // Gmail address Password
+            $mail->Password = "demot78678"; // Gmail address Password
             $mail->SMTPSecure = "ssl";
             $mail->Port = "587";
         
