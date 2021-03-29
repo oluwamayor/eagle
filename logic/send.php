@@ -13,7 +13,7 @@
         $phone = trim($_POST["phone"]);
         $message = trim($_POST["msg"]);
         
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($subject) OR empty($message) || strlen($phone) < 11 || strlen($phone) > 11  ) {
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($subject) OR empty($message)) {
             # Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "
