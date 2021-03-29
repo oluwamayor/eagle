@@ -2,7 +2,7 @@
 
 	use PHPMailer\PHPMailer\PHPMailer;
     
-     $mail = new PHPMailer(true); 
+     $mail = new PHPMailer; 
 
 	if (isset($_POST['contactbtn'])) {
 	
