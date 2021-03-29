@@ -425,7 +425,7 @@ We Maintain Our Image
 Karen Adasen
 Lead Optometrist
     </pre>
- <a href="#">Readmore</a>
+ <a href="about">Readmore</a>
 </p>
 <div class="row">
 <div class="col-md-6">
