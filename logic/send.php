@@ -21,14 +21,7 @@
             # Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "
-            <script type=\"text/javascript\">
-            Swal.fire({
-              icon: 'error',
-              title: 'Oops...',
-              text: 'Please complete form details properly'
-              
-            })
-            </script>
+            Please complete form details properly
             ";
             exit;
         }
