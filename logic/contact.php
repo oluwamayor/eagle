@@ -1,6 +1,11 @@
 <?php
 
 	use PHPMailer\PHPMailer\PHPMailer;
+    require_once 'PHPMailer/Exception.php';
+    require_once 'PHPMailer/PHPMailer.php';
+    require_once 'PHPMailer/SMTP.php';
+
+     $mail = new PHPMailer(true); 
 
 	if (isset($_POST['contactbtn'])) {
 	
@@ -55,18 +60,23 @@
 		  	
 		}
 	
-		else {
-			
-		     
-               	include_once "PHPMailer/PHPMailer.php";
-                $mail = new PHPMailer();
-                $mail->setFrom($email);
-                $mail->addAddress('princemayor96@gmail.com');
-                $mail->Subject = "Message Received (Contact Page)";
-                $mail->isHTML(true);
-                $mail->Body = "<h3>First Name : $fname <br>Last Name : $lname <br> Email: $email <br>Contact : $phone <br> Message : $msg</h3>";
-
-                if ($mail->send())
+        else{
+            $mail->isSMTP();
+            $mail->Host = 'smtp.gmail.com';
+            $mail->SMTPAuth = true;
+            $mail->Username = 'demot342@gmail.com'; // Gmail address which you want to use as SMTP server
+            $mail->Password = 'demot_$$78'; // Gmail address Password
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->Port = '587';
+        
+            $mail->setFrom('demot342@gmail.com'); // Gmail address which you used as SMTP server
+            $mail->addAddress('princemayor96@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
+        
+            $mail->isHTML(true);
+            $mail->Subject = 'Message Received (Contact Page)';
+            $mail->Body = "<h3>First Name : $name <br> Last Name : $lname <br> Email: $email <br>Phone Number : $phone <br> Message : $msg</h3>";
+        
+            $mail->send();
             echo "
             <script type=\"text/javascript\">
             Swal.fire({
@@ -78,19 +88,7 @@
                      })
             </script>
         ";
-                else
-                           echo "
-              <script type=\"text/javascript\">
-                Swal.fire({
-                icon: 'error',
-                title: 'Oops...',
-                text: 'Something Happened. Try again!!'
-                
-                         })
-              </script>
-          ";
-			
-		}
+          }
 	}
 ?>
 
