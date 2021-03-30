@@ -71,7 +71,7 @@ elseif ($sql->num_rows > 0) {
     Swal.fire({
       icon: 'error',
       title: 'Oops...',
-      text: 'Email already exist in database'
+      text: 'This email already exists in our database'
       
     })
     </script>

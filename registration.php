@@ -126,7 +126,7 @@ include("logic/regis.php");
 <div class="row">
 <div class="col-md-12">
 <div class="form-group textarea-icon">
-<textarea  style="font-size:1rem;color:#000" class="form-control" name="msg" required placeholder="Health history..if any" id="" rows="3"></textarea>
+<textarea  style="font-size:1rem;color:#000" class="form-control" name="msg"  placeholder="Health history..if any" id="" rows="3"></textarea>
 <i class="far fa-envelope"></i>
 <button type="submit" class="btn btn-success" name="register">Join Us</button>
 </div>
