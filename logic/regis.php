@@ -94,8 +94,21 @@ elseif ($sql->num_rows > 0) {
                 $mail->isHTML(true);
                 $mail->Body = "
                   <img src='https://eaglevisionltd.com/staging/images/log2.png'><br>
-                    Congratulations $fname,<br>
-                    We welcome you to Eaglevision Eye Care Center. 
+                    Congratulations $title $fname,<br>
+                    We welcome you to Eaglevision Eye Care Center. <br>
+                    We are the best eye care center in Nigeria and we promise to take care of you and your
+                    family with the uttermost care and professionalism.
+                    <p>
+                    Eaglevision Eye Care Centre Team.
+                    <address>
+                    Plot 1A, Block 124,<br>
+                    T.F Kuboye Street Alternative Route,<br>
+                    Oniru, Lekki, Lagos.
+                    </address>
+
+                    </p>
+
+
                
                 ";
 

@@ -81,14 +81,14 @@ include("logic/header.php");
           <div class="small">
           <img src="images/gallery/17.jpg" />
           <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
           </div>
        
        <div class="small">
        <img src="images/gallery/19.jpg" />
        <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
        </div>
        
@@ -96,22 +96,22 @@ include("logic/header.php");
 
         <img src="images/gallery/14.jpg" />
         <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
        
       </div>
       <div class="column">
       <img src="images/gallery/24.jpg" />
       <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
         <img src="images/gallery/30.jpg" />
         <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
         <img src="images/gallery/25.jpg" />
         <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
       
 
@@ -120,19 +120,19 @@ include("logic/header.php");
       <div class="column">
       <img src="images/gallery/8.jpg" />
       <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
       <img src="images/gallery/7.jpg" />
       <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
       <img src="images/gallery/16.jpg" />
       <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
       <img src="images/gallery/29.jpg" />
       <div class="details">
-              <span class="span">George Amani</span>
+              <!-- <span class="span">George Amani</span> -->
           </div>
         
       </div>
