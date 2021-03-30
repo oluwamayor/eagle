@@ -16,8 +16,8 @@ include("logic/regis.php");
 <div class="col-md-6">
 <div class="sub-header_content">
  <p>REGISTRATION </p>
-<h3>The eye is the jewel of the body..</h3>
-<span><i>Henry David Thoreau</i></span>
+<h3>The sky is the daily bread of the eyes.</h3>
+<span><i>Ralph Waldo Emerson</i></span>
 </div>
 </div>
 <div class="col-md-6">
