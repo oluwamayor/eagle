@@ -34,7 +34,7 @@
         
     }
     .bx1{
-        color: #fff;
+        color: white;
         text-align: center;
         position: relative;
         top: 15px;
