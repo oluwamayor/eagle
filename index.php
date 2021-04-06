@@ -704,7 +704,7 @@ Lead Optometrist
         </div>
     </section>
 
-
+<!-- 
     <section class="our-team">
         <div class="container container-custom">
             <div class="row">
@@ -756,7 +756,7 @@ Lead Optometrist
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <section class="bg-img3">

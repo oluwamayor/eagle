@@ -32,7 +32,7 @@ include("logic/header.php");
                     <div class="row">
                         <div class="col-md-12 col-lg-6">
 
-                            <img src="images/karen.JPG" class="img-fluid w-100" alt="#" />
+                            <img src="images/about-karen2.png" class="img-fluid w-100" alt="#" />
 
                         </div>
                         <div class="col-md-12 col-lg-6">
@@ -164,7 +164,7 @@ include("logic/header.php");
     </div>
 </section>
 
-<section class="our-team">
+<!-- <section class="our-team">
     <div class="container container-custom">
         <div class="row">
             <div class="col-md-12">
@@ -215,7 +215,7 @@ include("logic/header.php");
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="testimonial pb-0">
     <div class="container container-custom">
